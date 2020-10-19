@@ -1,0 +1,59 @@
+#corpo{
+	width: 95%;	
+	height: auto;
+	margin: 0 auto;
+	text-align: justify;
+}
+
+#cursos{
+
+	text-align: left;
+}
+
+/* Google*/
+#mapa > iframe {
+     position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+}
+
+#mapa {
+	position: relative;
+        padding-bottom: 60%;
+        height: 0;
+        overflow: hidden;        
+}
+
+#estilo-mapa{
+	margin:0 auto; 
+	padding:5px ; 
+	max-width:800px;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+	float: center;
+}
+
+@media screen and (max-width:1024px) {
+  .container {
+    width:100%; 
+  }
+}
+
+/*Articles*/
+
+article{
+	padding: 10px;
+	width: 100%;	
+	height: auto;
+}
+
+section:after{
+	content: "";
+	display: table;
+	clear: both;
+}

@@ -1,0 +1,263 @@
+
+/* Body*/
+body{
+	background:linear-gradient(135deg,#bf9661 0%, #d4c7b6 100%);
+	font-family: "sans-serif";
+}
+
+
+/*Imagens*/
+
+.imgpcs{
+	width:300px;
+	height:168px; 
+	float: left;
+	padding: 20px;	
+}
+
+.imguni{
+	width: 338px;
+	height: 130px;
+	float: right;
+	padding: 20px;
+}
+
+.imgseta{
+	width: 68px;
+	height:	68px;
+	margin: 0 auto;
+	padding: 0px;
+	float: left;
+}
+
+.imgredes{
+	width: 68px;
+	height:	68px;
+	margin: 0 auto;
+	padding: 0px;
+	float: left;
+}
+.imgsala{
+	width:400px;
+	height:200px;	
+	padding: 8px;
+	float: right;
+}
+
+.logo{
+	float: left;
+	width:200px; 
+	height:100px;
+}
+
+.imgadmin{
+	width:auto;
+	height:auto;	
+	padding: 0px;
+	display:block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+}
+
+.imginfo{
+	width:auto;
+	height:auto;	
+	padding: 0px;
+	display:block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+}
+
+.imgsis{
+	width:auto;
+	height:auto;	
+	padding: 0px;
+	display:block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+}
+
+.imgjogos{
+	width:auto;
+	height:auto;	
+	padding: 0px;
+	display:block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+}
+
+.imgrede{
+	width:auto;
+	height:auto;	
+	padding: 0px;
+	display:block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+}
+
+
+/* Formatação texto */
+
+p { 
+	color: #000;
+	font-size: 18px;	
+}
+
+h2{
+	text-align: center;	
+	font-weight: bold;
+}
+
+h3{
+	text-align: center;	
+	font-weight: bold;
+}
+
+ul{
+	color: #000;
+	font-size: 18px;
+	
+}
+
+/* Tabelas */
+
+table{
+	margin-left:auto; 
+    margin-right:auto;
+	text-align: center;
+	float: center;
+	padding: 10px;
+	border-bottom: 1px solid #d4c7b6;
+	border-collapse: collapse;
+	width: 45%;		
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #d4c7b6;
+}
+
+tr:hover {
+	background-color:#d4c7b6;
+}
+
+
+/*Footer*/
+footer{
+	clear: both;	
+	height: 50px;
+	text-align: center;
+	padding: 10px;	
+}
+
+
+@media all and (min-width: 600px) and (max-width: 899px){
+	.imgadmin{
+		width:599px;
+		height:auto;	
+		padding: 0px;
+		display:block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    border: solid;
+	}
+
+	.imginfo{
+		width:599px;
+		height:auto;	
+		padding: 0px;
+		display:block;
+		margin-left: auto;
+		margin-right: auto;
+		border: solid;
+	}
+
+	.imgsis{
+		width:599px;
+		height:auto;	
+		padding: 0px;
+		display:block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    border: solid;
+	}
+
+	.imgjogos{
+		width:599px;
+		height:auto;		
+		padding: 0px;
+		display:block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    border: solid;
+	}
+
+	.imgrede{
+		width:599px;
+		height:auto;		
+		padding: 0px;
+		display:block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    border: solid;
+	}
+
+}
+
+@media all  and (max-width: 599px){
+	.imgadmin{
+		width:400px;
+		height:auto;	
+		padding: 0px;
+		display:block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    border: solid;
+	}
+
+	.imginfo{
+		width:400px;
+		height:auto;	
+		padding: 0px;
+		display:block;
+		margin-left: auto;
+		margin-right: auto;
+		border: solid;
+	}
+
+	.imgsis{
+		width:400px;
+		height:auto;	
+		padding: 0px;
+		display:block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    border: solid;
+	}
+
+	.imgjogos{
+		width:400px;
+		height:auto;		
+		padding: 0px;
+		display:block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    border: solid;
+	}
+
+	.imgrede{
+		width:400px;
+		height:auto;		
+		padding: 0px;
+		display:block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    border: solid;
+	}
+}
